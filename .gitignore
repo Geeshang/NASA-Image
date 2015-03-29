@@ -1,0 +1,34 @@
+.gradle
+/local.properties
+.DS_Store
+/build
+/app/src/androidTest
+/app/build/
+
+#Only include some file in .idea folder
+/.idea/*
+!/.idea/vcs.xml
+!/.idea/codeStyleSettings.xml
+
+# Built application files
+*.apk
+*.ap_
+
+# Files for the Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+
+#proguard file
+*.pro

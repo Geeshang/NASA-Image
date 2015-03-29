@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NASA-Image</string>
+    <string name="back_day">The day before</string>
+    <string name="forward_day">The day after</string>
+    <string name="translate">Translate</string>
+    <string name="Image_of_the_day">Image of the day</string>
+    <string name="share_main">Share</string>
+    <string name="share_text">Share text</string>
+    <string name="share_image">Share image</string>
+    <string name="share_text_image">Share text and image</string>
+    <string name="select_language">Please select which language translate to</string>
+    <string name="loading">Loading</string>
+    <string name="save">Save</string>
+    <string name="large_image">Large image</string>
+    <string name="wait_image_loading">Please wait image loading complete!</string>
+    <string name="share_service_not_available">Share feature not available right now!</string>
+    <string name="reach_the_end">Reach the end!</string>
+    <string name="newest_info">This is newest!</string>
+    <string name="network_times_out">Network connection times out!</string>
+    <string name="image_already_saved">Image has been saved in NASAImage folder!</string>
+    <string name="failed_fetch_net_resource">Failed to get network resource!</string>
+    <string name="save_succeed">Save succeed! It in NASAImage folder.</string>
+    <string name="save_failed">Save failed!</string>
+    <string name="save_failed_no_Sdcard">Save failed! No Sdcard found.</string>
+    <string name="no_Sdcard_exist">No Sdcard exist!</string>
+</resources>
