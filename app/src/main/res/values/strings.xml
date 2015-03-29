@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">每天一图</string>
+    <string name="back_day">前一天</string>
+    <string name="forward_day">后一天</string>
+    <string name="translate">翻译</string>
+    <string name="Image_of_the_day">Image of the day</string>
+    <string name="share_main">分享</string>
+    <string name="share_text">分享文本</string>
+    <string name="share_image">分享图片</string>
+    <string name="share_text_image">分享文本和图片</string>
+    <string name="select_language">请选择翻译到什么语言</string>
+    <string name="loading">正在加载中……</string>
+    <string name="save">保存</string>
+    <string name="large_image">大图</string>
+    <string name="wait_image_loading">请等待图片加载完毕！</string>
+    <string name="share_service_not_available">分享功能还未推出</string>
+    <string name="reach_the_end">已经到底了！</string>
+    <string name="newest_info">已经是最新了！</string>
+    <string name="network_times_out">网络连接超时</string>
+    <string name="image_already_saved">图片已经被保存在SD卡NASAImage目录下了！</string>
+    <string name="failed_fetch_net_resource">获取网络资源失败</string>
+    <string name="save_succeed">保存成功！可在SD卡NASAImage目录下找到该图片</string>
+    <string name="save_failed">保存失败！</string>
+    <string name="save_failed_no_Sdcard">保存失败，没有发现SD卡！</string>
+    <string name="no_Sdcard_exist">SD卡不存在</string>
+</resources>

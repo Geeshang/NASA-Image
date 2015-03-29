@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/share_main"
+        android:icon="@mipmap/ic_action_share"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource">
+
+        <menu>
+            <item
+                android:id="@+id/action_share_text"
+                android:title="@string/share_text"
+                android:icon="@mipmap/ic_action_chat"
+                android:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/action_share_image"
+                android:title="@string/share_image"
+                android:icon="@mipmap/ic_action_picture"
+                android:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/action_share_text_image"
+                android:title="@string/share_text_image"
+                android:icon="@mipmap/ic_action_merge"
+                android:showAsAction="ifRoom"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_save"
+        android:title="@string/save"
+        android:icon="@mipmap/ic_action_save"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource"/>
+</menu>

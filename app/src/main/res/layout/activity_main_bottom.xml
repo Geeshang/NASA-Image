@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="55dp">
+
+    <ImageButton
+        android:id="@+id/id_back"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/ic_action_back"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/back_day"/>
+
+    <ImageButton
+        android:id="@+id/id_translate"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/google_translate_logo"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/translate"/>
+
+    <ImageButton
+        android:id="@+id/id_forward"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/ic_action_forward"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/forward_day"/>
+
+</LinearLayout>
