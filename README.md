@@ -1,14 +1,14 @@
 # NASA-Image
-This is an Android project display NASA  Image of the Day, and features are provided to deal with the content.
+This is an Android project display the NASA  Image of the Day.
 
-NASA publish one image related to space exploration everyday,this android
+Everyday NASA will publish one image related to space exploration in their website.This android
 app parse the RSS from NASA official website to show you Image of the Day.
 
 ##APP Features
 - **Translation**
-  - Provide up to 8 kinds language translation form English.
+  - Provide many kinds language translation from English using BAIDU public service.
 - **Save Image**
-  - Sava the image to Sdcard , and check it in the Gallery.
+  - Save the image to Sdcard , and synchronize to Gallery App.
 - **Share Image**
   - Share image with your friend.
 - **Check Image in Detail**
@@ -54,12 +54,3 @@ After satisfying those requirements, the build is pretty simple:
 * Run `mvn clean install` from the root directory to build the app and also run
   the integration tests, this requires a connected Android device or running
   emulator
-
-You might find that your device doesn't let you install your build if you
-already have the version from Google Play installed.  This is standard
-Android security as it it won't let you directly replace an app that's been
-signed with a different key.  Manually uninstall GitHub from your device and
-you will then be able to install your own built version.
-
-See [here](https://github.com/github/android/wiki/Building-From-Eclipse) for
-instructions on building from [Eclipse](http://eclipse.org).
