@@ -1,5 +1,5 @@
 # NASA-Image
-This is an Android project display the NASA  Image of the Day.
+This is an Android project(After one year,author: toy project)display the NASA  Image of the Day.
 
 Everyday NASA will publish one image related to space exploration in their website.This android
 app parse the RSS from NASA official website to show you Image of the Day.
